@@ -1,0 +1,9 @@
+---
+title: "MERCK"
+output: html_document
+---
+<img src="timeline_pic.png" style="width:50%; height:80px">
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
