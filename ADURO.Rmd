@@ -7,16 +7,16 @@ output: html_document
 
 <img src="timeline_pic.png" style="width:50%; height:70px">
 
-#<script>
-   $(document).ready(function() {
-     $head = $('#header');
-     $head.prepend('<img src=\"logos.jpg\" style=\"float: right;width: 150px;\"/>')
-   });
-#</script>
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+# can use it next time to add a pic by the title. don't need the R chunk.
+#<script>
+   #$(document).ready(function() {
+     #$head = $('#header');
+     #$head.prepend('<img src=\"logos.jpg\" style=\"float: right;width: 150px;\"/>')
+   #});
+#</script>
 ```
 
-
+# Reference
 
