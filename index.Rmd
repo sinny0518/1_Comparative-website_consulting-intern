@@ -31,7 +31,7 @@ pre { /* Code block - determines code spacing between lines */
 \
 
 
-# **STING Programs Comparison among the Pharmaceutical Companies **
+# **STING Pathway Programs Comparison among the Pharmaceutical Companies **
 
 \
 
