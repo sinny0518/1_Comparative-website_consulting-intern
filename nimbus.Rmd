@@ -1,30 +1,75 @@
 ---
-title: "NIMBUS THERAPEUTICS"
-author: "Xin Yin Uni:xy2364"
-date: "7/20/2018"
+title: "Nimbus Therapeutics"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<style type="text/css">
 
-## R Markdown
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+\
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# **Nimbus Therapeutics Corporate Profile (competitive strength):  ** 
+Nimbus Therapeutics focuses on the “triad” of related disease areas: **metabolic disorders, oncology and immunology**, which share overlapping biological mechanisms that drive disease.  
+<center><img src="./company_analysis_excel/nimbus2.jpg" style="width:40%; height:200px">
+
+
+
+
+
+# **Latest news: ** 
+*June 05, 2018* - Nimbus Therapeutics Announces $65 Million in New Financing to Accelerate Pipeline Progress and Expand Discovery Efforts. The company’s current investors participated in the financing, include Atlas Venture, SR One, Lilly Ventures, Bill Gates, Pfizer Venture Investments, Lightstone Ventures, and Schrödinger.
+Additionally, their wholly owned STING agonist program has generated novel, highly potent, bona fide small molecules with compelling preclinical data which has not been disclosed yet.
+
+
+
+
+#**Pipeline**
+<center><img src="timeline_pic.png" style="width:50%; height:70px">
+<center><img src="./company_analysis_excel/nimbus.jpg">
+
+
+
+\
+
+For more details, check the reference below.
+
+
+
+
+# Reference 
+
+http://www.nimbustx.com/targets/#STINGAG  
+https://www.businesswire.com/news/home/20180605005214/en/Nimbus-Therapeutics-Announces-65-Million-New-Financing  
+http://www.nimbustx.com/news-events/
+

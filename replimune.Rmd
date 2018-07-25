@@ -1,30 +1,74 @@
 ---
 title: "Replimune"
-author: "Xin Yin Uni:xy2364"
-date: "7/20/2018"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<style type="text/css">
 
-## R Markdown
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+\
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# **Replimune Corporate Profile (competitive strength):  **  
+Replimune Group, Inc., is a biotechnology company developing oncolytic immunotherapies derived from its  **`Immulytic™`** platform.  
+
+Replimune’s powerful **`Immulytic™`** platform is intended to achieve the holy grail of personalized **anti-cancer vaccines** to activate innate immunity, including through toll-like receptors (TLRs) and stimulator of interferon genes (STING). The platform combines multiple mechanisms to deliver medicines with the ability to not only directly kill cancer cells and generate systemic anti-cancer immune responses, but also create a practical approach to achieving personalized systemic neoantigen vaccination directly in the patient.    
+
+Replimune is executing a broad, aggressive development plan with a pipeline of potent oncolytic immunotherapies now entering clinical studies for multiple types of cancer. They will use Immulytic™ platform to treat a wide range of solid tumors, including ‘immunologically cold’ tumor types.
+
+
+
+
+
+# **Latest news: **  
+July 19, 2018 - Replimune Announces Pricing of Initial Public Offering. J.P. Morgan, Leerink Partners and BMO Capital Markets are acting as joint book-running managers for the offering.
+
+
+
+
+#**Pipeline**
+<center><img src="timeline_pic.png" style="width:50%; height:70px">
+<center><img src="./company_analysis_excel/replimune.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference  
+https://www.replimune.com/our-science/immulytic-platform/  
+https://www.genengnews.com/gen-news-highlights/cancer-immunotherapy-developers-raise-nearly-150m-in-financing/81254908

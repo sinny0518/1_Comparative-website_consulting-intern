@@ -1,30 +1,70 @@
 ---
-title: "CURADEV"
-author: "Xin Yin Uni:xy2364"
-date: "7/20/2018"
+title: "Curadev"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<style type="text/css">
 
-## R Markdown
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+\
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
 
-You can also embed plots, for example:
+# **Curadev (competitive strength):  **  
+Founded in 2010, a small molecule drug discovery biotech that focuses more on translational research and data-driven program execution. They have swiftly established their credentials by successfully creating and out-licensing their small molecule patents in immune-oncology.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# **Latest news about their STING Program and their partnership: **  
+  DECEMBER 2017 - Curadev Announce Research Partnership With University of Texas Southwestern Medical Center, Dallas, TX, USA. The research findings are on the rewiring of tumor cell metabolism. UT Southwestern and Curadev retain a keen interest in translating the research findings into clinically relevant small molecule therapies for their patients.  
+  JULY 2017 - *Curadev files provisional patents in its STING program*  
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/curadev.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference   
+https://www.curadev.in/index.php  
+http://www.prnewswire.co.in/news-releases/curadev-announce-research-partnership-with-university-of-texas-southwestern-medical-center-dallas-tx-usa-662519093.html  
+https://www.curadev.in/newsroom-2017.html  
+
+
+

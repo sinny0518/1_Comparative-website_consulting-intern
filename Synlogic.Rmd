@@ -1,30 +1,74 @@
 ---
 title: "Synlogic"
-author: "Xin Yin Uni:xy2364"
-date: "7/20/2018"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<style type="text/css">
 
-## R Markdown
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+\
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# **Synlogic Corporate Profile (competitive strength):  **  
+
+Synlogic™ is pioneering the development of a **novel class of living Synthetic Biotic™ medicines based on its proprietary drug discovery and development platform**. Synlogic’s initial pipeline includes Synthetic Biotic medicines for the treatment of rare genetic diseases, such as **Urea Cycle Disorder (UCD)** and **Phenylketonuria (PKU)**. In addition, the company is leveraging the broad potential of its platform to create Synthetic Biotic medicines for the treatment of **other diseases**, such as liver disease, inflammatory and immune disorders, and cancer. Synlogic is collaborating with `AbbVie` to develop Synthetic Biotic-based treatments for inflammatory bowel disease (IBD). 
+
+From their lastest posted data on STING, the data demonstrate the ability of Synthetic Biotic medicines to dramatically modulate the tumor microenvironment, generating potent and efficacious anti-tumor immunity.
+
+
+
+# **Latest news about their STING Program: **  
+June 25, 2018 -   
+    *Synlogic Presents New Preclinical Data from Synthetic Biotic™ Immuno-Oncology Program at FOCIS 2018*     
+    In a presentation at FOCIS: A Synthetic Biology Approach for the Treatment of Cancer and Inflammation, Synlogic described the engineering of Synthetic Biotic strains to execute a range of functions that are potentially useful for the treatment of cancer, including - immunomodulatory cytokines such as IL-15, TNF-alpha and IFN-gamma, and production of small molecules, such as STING agonists, that are able to trigger robust anti-tumor immune responses as single agents.
+    In a second presentation, *Using Synthetic Biotic Medicines to Activate Innate and Adaptive Immunity and Drive Antitumor Immune Responses*, data were presented from mouse tumor model studies of two genetic circuits engineered into E. coli Nissle to generate two bacterial strains, an immune “initiator” STING activating circuit (SYN-STING) and an immune “sustainer” kynurenine consuming circuit (SYN-Kyn). 
+
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/synlogic.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference   
+https://markets.businessinsider.com/news/stocks/synlogic-presents-data-from-immuno-oncology-development-program-demonstrating-potent-anti-tumor-immunity-following-administration-of-novel-sting-agonist-producing-synthetic-biotic-medicine-1015631648  
+

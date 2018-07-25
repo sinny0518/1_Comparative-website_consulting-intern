@@ -1,30 +1,68 @@
 ---
-title: "VYRIAD"
-author: "Xin Yin Uni:xy2364"
-date: "7/20/2018"
+title: "Vyriad"
+#date: '`r paste("Date:",Sys.Date())`'
+fontsize: 12pt
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<style type="text/css">
 
-## R Markdown
+body{ /* Normal  */
+      font-size: 13px;
+  }
+}
+h1.title {
+  font-size: 28px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 20px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 16px;
+  color: DarkBlue;
+}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+\
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
+# **Vyriad (potential competitive strength):  **    
+A new Biotech startup. August 2016, Vyriad signed a licensing agreement with Florida-based StingInn, LLC to use that company’s cyclic GMP-AMP Synthase STING (Stimulator of Interferon Genes) oncolytic virus technology with Vyriad’s oncolytic virotherapy product candidates for the treatment of advanced-stage cancers.     
 
-You can also embed plots, for example:
+The company began as `Omnis Pharma`, but last year it merged with `Magnis Therapeutics` to form Vyriad. The two companies combined their pipelines to include Phase II product candidates in ovarian cancer and multiple myeloma, and Phase I programs in glioblastoma, mesothelioma, head and neck cancer, blood cancers, endometrial cancer, hematologic malignancies, and gastrointestinal cancer.    
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+Vyriad also has seven pre-IND programs that include the pairing of oncolytic vaccines with other cancer immunotherapy approaches such as checkpoint inhibitors and standard chemotherapy treatments.   
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# **Latest news on their collaboration with other big companies: (07/18/18)**       
+They announced a collaboration agreement with `Merck KGaA`, `Darmstadt`, `Germany`, and `Pfizer` to expand its ongoing Phase 1 clinical trial program in solid tumors to include a combination study of its lead asset, Voyager-V1, with avelumab*, a human anti-PD-L1 antibody. But, Vyriad hasn’t disclosed whether the drug target is STING-relevant or not.  
+
+
+#**Pipeline**  
+
+<img src="timeline_pic.png" style="width:50%; height:70px">
+<img src="./company_analysis_excel/vyriad.jpg">
+
+
+
+
+
+For more details, check the reference below.
+
+
+
+
+# Reference     
+http://www.vyriad.com/2016/08/05/vyriad-signs-exclusive-license-agreement-sting-technology-development-enhanced-oncolytic-virotherapy-treatments/  
+ftp://ftp.puce.edu.ec/facultades/CienciasExactas/Fisica-Quimica/CEN_2018_02_26.pdf  
+https://www.biospace.com/article/biotech-startup-vyriad-graduates-from-mayo-clinic-incubator-to-larger-space-/
+http://www.vyriad.com/2018/07/18/vyriad-announces-collaboration-merck-kgaa-darmstadt-germany-pfizer-evaluate-oncolytic-virus-voyager-v1-combination-anti-pd-l1-antibody-avelumab-phase-1-clinical-study/
